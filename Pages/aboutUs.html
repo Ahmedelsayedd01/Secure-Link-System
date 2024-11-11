@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Styles/aboutUs.css" />
+    <!-- Icon Page -->
+    <link rel="icon" href="../Images/logoPage.png" />
+    <title>Secure Link System</title>
+    <!-- Icons Liberary -->
+    <script
+      src="https://kit.fontawesome.com/bbda8ae88d.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap Liberary -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Jquery Liberary -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Splide Liberary to swip -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+      rel="stylesheet"
+    />
+    <!-- INITIALIZE AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- \\\ INITIALIZE AOS /// -->
+    <script>
+      /* BUT Sniper When load Page */
+      $(window).on("load", function () {
+        $("#loading").hide();
+      });
+    </script>
+  </head>
+  <body>
+    <!-- Loading Page Spiner -->
+    <div id="loading">
+      <img
+        id="loading-image"
+        src="../Images/logoPage.png"
+        loading="lazy"
+        alt="Loading..."
+      />
+    </div>
+    <!-- Header Page Section -->
+    <header>
+      <!-- Email Company -->
+      <div class="emailCom">
+        <span><i class="fas fa-envelope"></i> info@slsuae.com</span>
+      </div>
+      <!-- Phone Company -->
+      <div class="phoneCom">
+        <span><i class="fas fa-phone"></i> +971567554823</span>
+      </div>
+    </header>
+    <!-- Nav Page Section -->
+    <nav>
+      <ul class="menuMobil">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="../Pages/aboutUs.html">About Us</a></li>
+        <li><a href="../Pages/services.html">Service</a></li>
+        <li><a href="../Pages/contactUs.html">Contact Us</a></li>
+      </ul>
+      <div class="wrapperNav">
+        <div class="logoPage">
+          <a href="../index.html">
+            <img src="../Images/logoPage.png" loading="lazy" alt="logo" />
+            <span>Secure Link System</span>
+          </a>
+        </div>
+        <div class="linksPage">
+          <span class="showMenu">
+            <i class="fa-solid fa-bars"></i>
+          </span>
+          <span class="hideMenu d-none">
+            <i class="fa-solid fa-xmark"></i>
+          </span>
+          <ul class="menuTap">
+            <li><a href="/index.html">Home</a></li>
+            <li class="activeTap">
+              <a href="../Pages/aboutUs.html">About Us</a>
+            </li>
+            <li><a href="../Pages/services.html">Service</a></li>
+            <li><a href="../Pages/contactUs.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Container page -->
+    <div class="containerr">
+      <!-- Who We Are  -->
+      <section class="contentAboutSec" style="padding-top: 30px">
+        <!-- Title Page Section  -->
+        <div
+          class="titlePage"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+        >
+          <span>Who We Are ?</span>
+        </div>
+        <!-- Content Company Section  -->
+        <div class="contentSec">
+          <div class="leftSec" data-aos="fade-right">
+            <p>
+              Welcome to Secure Link System, your trusted partner in advanced
+              security solutions. Founded in 2024, Secure Link System is a
+              premier security company dedicated to providing exceptional and
+              personalized services to businesses and individuals seeking
+              robust, reliable, and innovative security systems. With a focus on
+              safeguarding your assets and data, we offer cutting-edge solutions
+              tailored to meet the unique needs of each client. Secure Link
+              System is committed to enhancing your security, ensuring peace of
+              mind, and helping you stay protected in an increasingly connected
+              world.
+            </p>
+          </div>
+          <div class="rightSec" data-aos="fade-left">
+            <img src="../Images/home1.webp" loading="lazy" alt="photo" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Mission Section -->
+      <section class="contentMissionSec" style="padding-top: 70px">
+        <div
+          class="titlePage"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+        >
+          <span>Our Mission</span>
+        </div>
+        <p data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+          At Secure Link System, our mission is to deliver unparalleled security
+          solutions that safeguard what matters most to you. We believe that
+          security is more than just technology; it is a commitment to
+          protecting your peace of mind and enhancing your safety. Our mission
+          is centered around the following principles:
+        </p>
+        <div class="contentMission">
+          <p data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            1. Customization: We understand that each client has unique security
+            needs. Our mission is to design personalized security solutions,
+            whether for homes or businesses, that address specific requirements.
+            We work closely with our clients to provide tailored systems, from
+            surveillance cameras to comprehensive alarm systems, that ensure
+            optimal protection.
+          </p>
+          <p data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            2. Excellence in Service: At Secure Link System, we are dedicated to
+            delivering exceptional service at every stage of the process. From
+            the initial consultation through installation and maintenance, our
+            team of security experts is here to provide support, guidance, and
+            meticulous attention to detail. We strive to make your experience
+            seamless, efficient, and reassuring.
+          </p>
+          <p data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            3. Cutting-Edge Technology: Security is an ever-evolving field, and
+            we are committed to staying at the forefront of innovation. Our
+            mission is to offer the latest security technologies, including
+            high-resolution cameras, smart alarms, and integrated access control
+            systems, to give you the most reliable and effective protection
+            available.
+          </p>
+          <p data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            4. Trust and Reliability: Building trust with our clients is at the
+            heart of our mission. We believe that security systems should
+            provide peace of mind, and we ensure that every solution we
+            implement is dependable, durable, and monitored. We take pride in
+            our commitment to reliability and in building long-lasting
+            relationships with our clients.
+          </p>
+        </div>
+        <p data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+          At Secure Link System, our mission is fueled by our dedication to
+          protecting people and assets. We strive to exceed your expectations,
+          enhance your sense of security, and help you stay safe in an
+          increasingly connected world.
+        </p>
+      </section>
+
+      <!-- Our Core Values -->
+      <section class="contentOurCoreValues" style="padding-top: 0px">
+        <!-- Title Page Section  -->
+        <div
+          class="titlePage"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+        >
+          <span>Our Core Values</span>
+        </div>
+        <!-- Content Company Section  -->
+        <div class="contentSec">
+          <div class="leftSec" data-aos="fade-right">
+            <img src="../Images/aboutUs1.webp " loading="lazy" alt="photo" />
+          </div>
+          <div class="rightSec" data-aos="fade-left">
+            <p>
+              At Secure Link System, our core values are the foundation of our
+              commitment to exceptional security solutions. We prioritize
+              integrity, acting transparently to build trust with every client.
+              Innovation drives us to provide the latest in security technology,
+              ensuring our clients have access to advanced and effective
+              solutions. Our customer-centered approach means we listen closely
+              to clients' needs and customize services to ensure their safety
+              and satisfaction. Reliability is essential—we’re dedicated to
+              providing dependable support and systems clients can count on to
+              protect their people and assets. These values guide us in
+              delivering the highest standards of security.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Google Reviews Section  -->
+      <section
+        class="reviewSec"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+      >
+        <div class="leftReviewSec">
+          <span>Good</span>
+          <ul>
+            <li><i class="fas fa-star"></i></li>
+            <li><i class="fas fa-star"></i></li>
+            <li><i class="fas fa-star"></i></li>
+            <li><i class="fas fa-star"></i></li>
+            <li>
+              <i class="fas fa-star-half-alt"></i>
+            </li>
+          </ul>
+          <span>Based on 466 Reviews </span>
+          <img src="../Images/google.png" loading="lazy" alt="google" />
+        </div>
+        <div class="rightReviewSec">
+          <section class="splide" aria-labelledby="carousel-heading">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <div class="cardd">
+                    <div class="headCard">
+                      <img
+                        src="../Images/user 1.jpg"
+                        loading="lazy"
+                        alt="user"
+                      />
+                    </div>
+                    <h4 class="cardName">James Thompson</h4>
+                    <p class="cardTitle">
+                      The installation was seamless, and the technology is
+                      top-notch. I can monitor my business from anywhere, and
+                      it’s made a huge difference. Secure Link System is the
+                      best investment I’ve made for protecting my assets.
+                    </p>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="cardd">
+                    <div class="headCard">
+                      <img
+                        src="../Images/user 2.jpg"
+                        loading="lazy"
+                        alt="user"
+                      />
+                    </div>
+                    <h4 class="cardName">Sarah Mitchell</h4>
+                    <p class="cardTitle">
+                      Secure Link System provides peace of mind like no other.
+                      Their team took the time to understand exactly what we
+                      needed and tailored the entire security setup for our
+                      home. It’s rare to find a company so dedicated to quality
+                      and customer satisfaction!
+                    </p>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="cardd">
+                    <div class="headCard">
+                      <img
+                        src="../Images/user 3.jpg"
+                        loading="lazy"
+                        alt="user"
+                      />
+                    </div>
+                    <h4 class="cardName">Michael Chen</h4>
+                    <p class="cardTitle">
+                      Secure Link System is extremely reliable and efficient.
+                      They offer excellent ongoing support, and their attention
+                      to detail is impressive. Knowing they’re just a call away
+                      whenever I need help with the system is invaluable.
+                    </p>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="cardd">
+                    <div class="headCard">
+                      <img
+                        src="../Images/user 4.jpg"
+                        loading="lazy"
+                        alt="user"
+                      />
+                    </div>
+                    <h4 class="cardName">David Ramirez</h4>
+                    <p class="cardTitle">
+                      Incredibly professional and knowledgeable team. Secure
+                      Link System went above and beyond to make sure everything
+                      was set up perfectly. I feel secure knowing that my family
+                      and home are well-protected.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </section>
+      <!-- FAQ Section -->
+      <section
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        class="faqSec container-fluid pt-5 pb-5"
+        style="background-color: #13293d"
+      >
+        <div class="container">
+          <h2 style="color: #00d8ff">FAQ</h2>
+          <div id="accordion" class="mt-4">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="card border mb-3">
+                  <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                      <a
+                        class="btn"
+                        data-toggle="collapse"
+                        data-target="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        What types of security systems do you offer
+                      </a>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="collapseOne"
+                    class="collapse"
+                    aria-labelledby="headingOne"
+                    data-parent="#accordion"
+                  >
+                    <div class="card-body">
+                      We provide a wide range of security solutions, including
+                      surveillance cameras, alarm systems, access control
+                      systems, and integrated security networks. Each system can
+                      be customized to meet the specific needs of businesses or
+                      residential properties, ensuring comprehensive coverage
+                      and peace of mind.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card border mb-3">
+                  <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                      <a
+                        class="btn collapsed"
+                        data-toggle="collapse"
+                        data-target="#collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo"
+                      >
+                        How long does the installation process take?
+                      </a>
+                    </h5>
+                  </div>
+                  <div
+                    id="collapseTwo"
+                    class="collapse"
+                    aria-labelledby="headingTwo"
+                    data-parent="#accordion"
+                  >
+                    <div class="card-body">
+                      The installation timeline varies based on the size and
+                      complexity of the project. For small residential setups,
+                      installation might take a few hours, while larger
+                      commercial systems could require several days. We conduct
+                      a thorough assessment beforehand to provide an accurate
+                      timeline tailored to your needs.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="card border mb-3">
+                  <div class="card-header" id="heading3">
+                    <h5 class="mb-0">
+                      <a
+                        class="btn"
+                        data-toggle="collapse"
+                        data-target="#collapse3"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        Can I monitor my security system remotely?
+                      </a>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="collapse3"
+                    class="collapse"
+                    aria-labelledby="headingOne"
+                    data-parent="#accordion"
+                  >
+                    <div class="card-body">
+                      Yes! Our systems are compatible with remote monitoring via
+                      smartphones, tablets, or computers. This allows you to
+                      view live camera feeds, receive real-time alerts, and
+                      manage your security system from anywhere with an internet
+                      connection.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card border mb-3">
+                  <div class="card-header" id="heading4">
+                    <h5 class="mb-0">
+                      <a
+                        class="btn"
+                        data-toggle="collapse"
+                        data-target="#collapse4"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo"
+                      >
+                        What kind of maintenance and support do you provide
+                        after installation?
+                      </a>
+                    </h5>
+                  </div>
+                  <div
+                    id="collapse4"
+                    class="collapse"
+                    aria-labelledby="headingTwo"
+                    data-parent="#accordion"
+                  >
+                    <div class="card-body">
+                      We offer ongoing maintenance and support services to
+                      ensure your system remains in optimal working condition.
+                      This includes regular system checks, software updates, and
+                      troubleshooting assistance. Our support team is available
+                      to address any questions or issues that may arise after
+                      installation.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Footer Section -->
+      <footer class="footerSec">
+        <!-- Copy right -->
+        <div style="border-top: 3px solid #fe7100 !important">
+          <p class="copyright">
+            © CopyRight 2024 . Designed by
+            <a
+              href="https://www.instagram.com/ahmedelsayedd.01/"
+              target="_blank"
+              ><img
+                src="../Images/logo me3.jpeg"
+                loading="lazy"
+                alt="logo"
+                class="logoDevelop"
+            /></a>
+            All Rights Reserved .
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Section Right Socail -->
+    <div class="socailBar">
+      <a href="tel:+971567554823" class="scoailPhone" target="_blank">
+        <i class="fa fa-phone"></i>
+      </a>
+      <a
+        href="https://api.whatsapp.com/send?phone=+971567554823&amp;text=Hello! I saw the company's website and I want to inquire about something"
+        class="scoailWhatsapp"
+        target="_blank"
+        ><i class="fab fa-whatsapp"></i
+      ></a>
+      <a class="socialGraduation" href="mailto:info@slsuae.com" target="_blank">
+        <i class="far fa-envelope"></i>
+      </a>
+    </div>
+    <!-- Container page -->
+    <!-- Warper Background  -->
+    <script src="../Scripts/aboutUs.js"></script>
+  </body>
+</html>
