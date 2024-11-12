@@ -22,66 +22,7 @@ $(document).ready(function () {
     gap: "2em",
     omitEnd: true,
   });
-  
-  // var splideHero = new Splide(".heroSec .splide", {
-  //   autoplay: true,
-  //   arrows: false,
-  //   pagination: false,
-  //   interval: 3000,
-  //   speed: 3000,
-  //   type: "loop",
-  //   perPage: 1,
-  //   focus: 0,
-  //   // gap: "2em",
-  //   omitEnd: true,
-  // });
-  // var splideVise = new Splide(".viseSec .splide", {
-  //   autoplay: true,
-  //   // arrows: false,
-  //   pagination: false,
 
-  //   // interval: 3000,
-  //   // speed: 3000,
-  //   // type: "loop",
-
-  //   perPage: "auto",
-  //   focus: 0,
-  //   gap: "2em",
-  //   omitEnd: true,
-  // });
-  // var splideHotels = new Splide(".hotelsSec .splide", {
-  //   autoplay: true,
-  //   // arrows: false,
-  //   pagination: false,
-
-  //   // interval: 3000,
-  //   // speed: 3000,
-  //   // type: "loop",
-
-  //   perPage: "auto",
-  //   focus: 0,
-  //   gap: "2em",
-  //   omitEnd: true,
-  // });
-  // var splideTickts = new Splide(".ticktsSec .splide", {
-  //   autoplay: true,
-  //   // arrows: false,
-  //   pagination: false,
-
-  //   // interval: 3000,
-  //   // speed: 3000,
-  //   // type: "loop",
-
-  //   perPage: "auto",
-  //   focus: 0,
-  //   gap: "2em",
-  //   omitEnd: true,
-  // });
-
-  // splideHero.mount();
-  // splideVise.mount();
-  // splideTickts.mount();
-  // splideHotels.mount();
   splideReviews.mount();
   /* Show && hide menu */
   $(".showMenu").click(function () {

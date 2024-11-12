@@ -386,6 +386,15 @@ nav .wrapperNav .linksPage .menuTap {
        object-position: center;
 }
 
+.contentAboutSec .contentSec .leftSec img {
+       width: 100%;
+       /* height: 300px; */
+       border-radius: 15px;
+       border: 4px solid #00D8FF !important;
+       object-fit: cover;
+       object-position: center;
+}
+
 /* ##### */
 .contentAboutSec {
        width: 90%;
@@ -513,38 +522,116 @@ nav .wrapperNav .linksPage .menuTap {
        background-color: var(--bg-clr);
        min-height: 50px;
        width: 100%;
-}
-
-/* ##### */
-.pageLink {
        display: flex;
        flex-direction: column;
+       align-items: center;
+}
+
+.footerSec .footerWraper {
+       width: 100%;
+       background-image: url('../Images/footerBg.jpg');
+       background-repeat: no-repeat;
+       /* background-size: 100%; */
+       background-size: cover;
+       background-position: center;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       padding: 20px 40px;
+       row-gap: 20px;
+}
+
+.footerWraper .aboutusSec,
+.footerWraper .quickLinksSec,
+.footerWraper .servicesSec,
+.footerWraper .contactSec {
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
        row-gap: 10px;
-       color: var(--second-clr);
-       margin: 0px;
-       padding: 0;
-       margin-top: 5px !important;
-       cursor: pointer;
-}
-
-.pageLink li {
-       color: var(--second-clr);
-       padding-top: 8px;
-       font-size: 16px;
-       transition: color .2s ease-in-out;
-}
-
-.pageLink a:hover li {
        color: #fff;
 }
 
+.footerWraper .aboutusSec .title,
+.footerWraper .quickLinksSec .title,
+.footerWraper .servicesSec .title,
+.footerWraper .contactSec .title {
+       width: 100%;
+       text-align: start;
+       font-size: 1.5rem;
+       font-weight: 500;
+}
 
+.footerWraper .aboutusSec .content {
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       row-gap: 10px;
+}
+
+.footerWraper .aboutusSec .content {
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       row-gap: 10px;
+}
+
+.footerWraper .quickLinksSec .content {
+       width: 100%;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       color: #fff !important;
+       row-gap: 10px;
+}
+
+.footerWraper .quickLinksSec .content a {
+       color: #fff;
+}
+
+.footerWraper .servicesSec .content {
+       width: 100%;
+       display: flex;
+       flex-wrap: wrap;
+       align-items: center;
+       justify-content: flex-start;
+       color: #fff !important;
+       row-gap: 10px;
+       column-gap: 20px;
+}
+
+.footerWraper .contactSec .content a {
+       color: #fff;
+}
+
+.footerWraper .contactSec .content {
+       width: 100%;
+       display: flex;
+       flex-wrap: wrap;
+       align-items: center;
+       justify-content: flex-start;
+       color: #fff !important;
+       row-gap: 10px;
+       column-gap: 20px;
+}
+
+.footerWraper .servicesSec .content a {
+       color: #fff;
+}
 
 .copyright {
        text-align: center;
        color: #cacaca;
        font-size: 15px;
-       margin-bottom: 0;
+       margin-top: 10px;
+       margin-bottom: 10px;
 }
 
 .logoDevelop {
@@ -765,6 +852,113 @@ nav .wrapperNav .linksPage .menuTap {
               object-position: center;
               padding: 2px;
               border: 3px solid #fe7100 !important;
+       }
+
+       .footerSec .footerWraper {
+              display: flex;
+              flex-direction: row;
+              align-items: flex-start;
+              justify-content: center;
+              padding: 40px 40px 30px 40px;
+              row-gap: 0;
+              column-gap: 40px;
+       }
+
+       .footerWraper .aboutusSec {
+              width: 35%;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: space-between;
+              row-gap: 0;
+              column-gap: 20px;
+              color: #fff;
+       }
+
+       .footerWraper .servicesSec {
+              width: 30%;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: space-between;
+              row-gap: 0;
+              column-gap: 20px;
+              color: #fff;
+       }
+
+       .footerWraper .quickLinksSec,
+       .footerWraper .contactSec {
+              width: 17%;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: space-between;
+              row-gap: 0;
+              column-gap: 20px;
+              color: #fff;
+       }
+
+       .footerWraper .aboutusSec .title,
+       .footerWraper .quickLinksSec .title,
+       .footerWraper .servicesSec .title,
+       .footerWraper .contactSec .title {
+              width: 100%;
+              text-align: start;
+              font-size: 1.5rem;
+              font-weight: 500;
+       }
+
+       .footerWraper .aboutusSec .content {
+              width: 100%;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              row-gap: 10px;
+       }
+
+
+       .footerWraper .quickLinksSec .content {
+              width: 100%;
+              display: flex;
+              flex-direction: column;
+              align-items: flex-start;
+              justify-content: center;
+              color: #fff !important;
+              row-gap: 10px;
+       }
+
+
+       .footerWraper .servicesSec .content {
+              width: 100%;
+              display: flex;
+              flex-wrap: wrap;
+              align-items: flex-start;
+              /* flex-direction: column; */
+              justify-content: flex-start;
+              color: #fff !important;
+              row-gap: 10px;
+              column-gap: 20px;
+       }
+
+       .footerWraper .contactSec .content a {
+              color: #fff;
+       }
+
+       .footerWraper .contactSec .content {
+              width: 100%;
+              display: flex;
+              /* flex-wrap: wrap; */
+              align-items: flex-start;
+              flex-direction: column;
+              justify-content: flex-start;
+              color: #fff !important;
+              row-gap: 10px;
+              column-gap: 20px;
+       }
+
+       .footerWraper .servicesSec .content a {
+              color: #fff;
        }
 
        .logoFooter {
