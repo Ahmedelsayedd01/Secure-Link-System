@@ -288,6 +288,17 @@ nav .wrapperNav .linksPage .menuTap {
        width: 100%;
 }
 
+.contentAboutSec .headerContact {
+       text-shadow: 3px 12px 5px rgb(74, 134, 180);
+       /* text-shadow: 1px 1px 13px -1px rgba(128, 128, 128, 1); */
+       text-align: center;
+       width: 80%;
+       font-size: 2rem;
+       font-weight: 500;
+       color: #1a4566;
+       padding: 20px;
+}
+
 /* Content About Section */
 .contentAboutSec .contentSec {
        width: 100%;
@@ -295,18 +306,19 @@ nav .wrapperNav .linksPage .menuTap {
        flex-direction: column;
        align-items: flex-start;
        justify-content: flex-start;
-       gap: 30px;
+       flex-wrap: wrap;
+       gap: 20px;
 }
 
 .contentAboutSec .contentSec .tap {
        width: 100%;
-       box-shadow: 1px 1px 13px -1px rgba(128, 128, 128, 1);
+       /* box-shadow: 1px 1px 13px -1px rgba(128, 128, 128, 1); */
        /* background-color: #0A1A2E; */
        display: flex;
-       flex-direction: column;
+       /* flex-direction: column; */
        align-items: start;
        justify-content: flex-start;
-       padding: 15px;
+       /* padding: 15px; */
        border-radius: 15px;
        overflow: hidden;
        column-gap: 10px;
@@ -316,7 +328,7 @@ nav .wrapperNav .linksPage .menuTap {
        display: flex;
        align-items: baseline;
        justify-content: flex-start;
-       width: 100%;
+       /* width: 100%; */
        gap: 5px;
        font-size: 1.6rem;
        font-weight: 500;
@@ -341,7 +353,7 @@ nav .wrapperNav .linksPage .menuTap {
        width: 90%;
        display: flex;
        flex-direction: column;
-       align-items: flex-start;
+       align-items: center;
        margin: 20px 0;
        row-gap: 25px;
 }
@@ -560,24 +572,25 @@ nav .wrapperNav .linksPage .menuTap {
               margin-top: 10px;
               width: 100%;
               display: flex;
-              flex-direction: row;
+              /* flex-direction: row; */
               align-items: center;
               justify-content: flex-start;
-              gap: 30px;
+              flex-wrap: wrap;
+              gap: 10px;
        }
 
        .contentAboutSec .contentSec .tap {
-              width: 35%;
-              box-shadow: 1px 1px 13px -1px rgba(128, 128, 128, 1);
+              /* width: auto; */
+              /* box-shadow: 1px 1px 13px -1px rgba(128, 128, 128, 1); */
               /* background-color: #0A1A2E; */
               display: flex;
-              flex-direction: column;
+              /* flex-direction: column; */
               align-items: center;
               justify-content: flex-start;
-              padding: 15px;
-              border-radius: 15px;
+              padding:0;
+              /* border-radius: 15px; */
               overflow: hidden;
-              column-gap: 10px;
+              row-gap: 20px;
        }
 
        /* Content About Section */
