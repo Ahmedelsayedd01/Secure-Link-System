@@ -370,7 +370,7 @@ nav .wrapperNav .linksPage .menuTap {
        color: rgb(21, 60, 108);
        text-align: left;
        font-size: 120%;
-       line-height: 140%;
+       line-height: 180%;
 }
 
 .contentAboutSec .contentSec .rightSec {
@@ -471,6 +471,7 @@ nav .wrapperNav .linksPage .menuTap {
        margin-bottom: 5px;
        font-size: 1.2rem;
        line-height: 140%;
+       padding: 5px 0;
 
 }
 
@@ -516,6 +517,7 @@ nav .wrapperNav .linksPage .menuTap {
 .reviewSec .leftReviewSec ul {
        display: flex;
        align-items: center;
+       list-style: none;
        justify-content: space-between;
        column-gap: 8px;
 }
@@ -838,7 +840,6 @@ nav .wrapperNav .linksPage .menuTap {
               width: 50%;
               text-align: left;
               font-size: 140%;
-              line-height: 140%;
        }
 
        .contentAboutSec .contentSec .rightSec {
