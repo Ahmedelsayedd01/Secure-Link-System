@@ -16,8 +16,9 @@
        padding: 0;
        box-sizing: border-box;
        text-decoration: none !important;
-       list-style: none !important;
+       /* list-style: none !important; */
        border: none !important;
+       margin-bottom: 0 !important;
        outline: none !important;
        scroll-behavior: smooth !important;
        font-family: "Rubik", sans-serif;
@@ -231,6 +232,7 @@ nav .wrapperNav .linksPage>span i {
 
 nav .menuMobil {
        position: absolute;
+       list-style: none;
        width: 100%;
        bottom: -205%;
        right: 100%;
@@ -253,11 +255,12 @@ nav .menuMobil li a {
 }
 
 nav .menuMobil li a:hover {
-       color: #0A1A2E;
+       color: #1a4566;
 }
 
 nav .wrapperNav .linksPage .menuTap {
        display: none;
+       list-style: none;
 }
 
 /* Title page */
@@ -375,7 +378,7 @@ nav .wrapperNav .linksPage .menuTap {
        color: rgb(21, 60, 108);
        text-align: left;
        font-size: 120%;
-       line-height: 140%;
+       line-height: 180%;
 }
 
 .contentAboutSec .contentSec .rightSec {
@@ -392,7 +395,7 @@ nav .wrapperNav .linksPage .menuTap {
        color: rgb(21, 60, 108);
        text-align: left;
        font-size: 120%;
-       line-height: 140%;
+       line-height: 180%;
 }
 
 
@@ -423,36 +426,52 @@ nav .wrapperNav .linksPage .menuTap {
        flex-direction: column;
        align-items: flex-start;
        margin-top: 20px;
-       row-gap: 20px;
+       row-gap: 15px;
 }
 
 .contentMissionSec>p {
        width: 100%;
+       color: #1a4566;
        text-align: left;
        font-size: 120%;
        line-height: 140%;
 }
 
-.contentMissionSec .contentMission {
+.contentMissionSec .contentMission,
+.contentMissionSec .contentMission .topic {
        width: 100%;
        display: flex;
        flex-direction: column;
-       align-items: center;
+       align-items: flex-start;
        justify-content: space-between;
        row-gap: 10px;
 }
 
-.contentMissionSec .contentMission>p::first-letter {
+.contentMissionSec .contentMission .topic>span {
+       font-size: 1.3rem;
+       font-weight: 500;
+       color: #1a4566;
+}
+
+.contentMissionSec .contentMission .topic>span::first-letter {
        color: var(--main-clr);
        font-size: 140%;
        font-weight: 500;
 }
 
-.contentMissionSec .contentMission>p {
+.contentMissionSec .contentMission .topic>ul {
        width: 100%;
+       margin-left: 5%;
+       /* list-style-type: circle !important; */
+}
+
+.contentMissionSec .contentMission .topic ul>li {
+       color: #1a4566;
        text-align: left;
-       font-size: 100%;
+       margin-bottom: 5px;
+       font-size: 1.2rem;
        line-height: 140%;
+
 }
 
 @keyframes MoveUpDown {
