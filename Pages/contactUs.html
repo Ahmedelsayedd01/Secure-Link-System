@@ -67,8 +67,8 @@
       <!-- Location Company -->
       <div class="phoneCom">
         <span
-          ><i class="fas fa-map-marker-alt"></i> 30 Al Jaywan St, Al Danah ,Abu
-          Dhabi</span
+          ><i class="fas fa-map-marker-alt"></i> Dar Al Salam building, corniche
+          Abu Dhabi 15th floor, Office Number 8th.</span
         >
       </div>
       <!-- Email Company -->
@@ -115,12 +115,15 @@
     </nav>
     <!-- Container page -->
     <div class="containerr">
+      <div class="headerContact">
+        <h1>Home -> Contact US</h1>
+      </div>
       <!-- Contact Us  -->
       <section class="contentAboutSec">
-        <div class="headerContact">
+        <!-- <div class="headerContact">
           Reach out to learn more about our services and how we can support your
           security needs.
-        </div>
+        </div> -->
         <!-- Title Page Section  -->
         <!-- <div
           class="titlePage"
@@ -154,7 +157,10 @@
               <i class="fas fa-map-marker-alt"></i><span>Address:</span>
             </div>
             <div class="content">
-              <span>30 Al Jaywan St, Al Danah, Abu Dhabi .</span>
+              <span
+                >Dar Al Salam building, corniche Abu Dhabi 15th floor, Office
+                Number 8th. .</span
+              >
             </div>
           </div>
           <div class="tap" data-aos="fade-right">
@@ -167,10 +173,70 @@
           </div>
         </div>
 
+        <!-- <form class="styled-form"> -->
+        <form
+          action="https://api.web3forms.com/submit"
+          method="POST"
+          class="styled-form"
+        >
+          <input
+            type="hidden"
+            name="access_key"
+            value="17bff360-bd09-4f15-8e45-51796cbc00f3"
+          />
+          <label for="FirstName">First Name</label>
+          <input
+            type="text"
+            id="FirstName"
+            name="FirstName"
+            placeholder="Enter your first name"
+            required
+          />
+
+          <label for="Email">Email</label>
+          <input
+            type="email"
+            id="Email"
+            name="Email"
+            placeholder="Enter your email"
+            required
+          />
+
+          <label for="PhoneNumber">Phone Number</label>
+          <input
+            type="number"
+            id="PhoneNumber"
+            name="PhoneNumber"
+            placeholder="Enter your phone number"
+            required
+          />
+
+          <label for="Address">Address</label>
+          <input
+            type="text"
+            id="Address"
+            name="Address"
+            placeholder="Enter your address"
+            required
+          />
+
+          <label for="Message">Message</label>
+          <textarea
+            id="Message"
+            name="Message"
+            placeholder="Write your message here"
+            rows="5"
+            cols="15"
+            required
+          ></textarea>
+
+          <input type="submit" />
+        </form>
+
         <iframe
           data-aos="fade-up"
           data-aos-anchor-placement="center-bottom"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3630.9354823166163!2d54.36304990000001!3d24.487692199999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e6665ffcc77d9%3A0x656fb143a65fa925!2s30%20Al%20Jaywan%20St%20-%20Al%20Danah%20-%20Zone%201%20-%20Abu%20Dhabi%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2seg!4v1731357276166!5m2!1sen!2seg"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29046.57497458102!2d54.357386!3d24.491628!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e677ae63b5791%3A0xfe1639c4788bc26e!2sTrust%20Well%20-%20Business%20Centre%20and%20Company%20Formation%20in%20Abu%20Dhabi!5e0!3m2!1sen!2seg!4v1733004544137!5m2!1sen!2seg"
           width="100%"
           height="500"
           style="border-radius: 10px"
@@ -242,7 +308,8 @@
               <div>
                 <i class="fas fa-map-marker-alt"></i
                 ><span style="margin-left: 10px"
-                  >30 Al Jaywan St, Al Danah, Abu Dhabi</span
+                  >Dar Al Salam building, corniche Abu Dhabi 15th floor, Office
+                  Number 8th.</span
                 >
               </div>
             </div>
@@ -285,5 +352,15 @@
     <!-- Container page -->
     <!-- Warper Background  -->
     <script src="../Scripts/contactUs.js"></script>
+    <script>
+      window.onload = function () {
+        // Reset the form fields when the page loads
+        document.querySelector(".styled-form").reset();
+      };
+    </script>
   </body>
 </html>
+<!-- 
+info@slsuae.com
+Info@sls12
+-->

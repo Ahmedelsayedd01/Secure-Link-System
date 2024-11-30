@@ -288,37 +288,105 @@ nav .wrapperNav .linksPage .menuTap {
        width: 100%;
 }
 
-.contentAboutSec .headerContact {
-       text-shadow: 3px 12px 5px rgb(74, 134, 180);
+.headerContact {
+       /* margin-top: 10%; */
+       width: 100%;
+       min-height: 25rem;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-image: url(../Images/bgContactUs.png);
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       /* text-shadow: 3px 12px 5px rgb(74, 134, 180); */
        /* text-shadow: 1px 1px 13px -1px rgba(128, 128, 128, 1); */
-       text-align: center;
-       width: 80%;
-       font-size: 2rem;
+       /* text-align: center; */
+       /* font-size: 2rem;
        font-weight: 500;
        color: #1a4566;
-       padding: 20px;
+       padding: 20px; */
 }
+
+.headerContact h1 {
+       font-size: 2rem;
+       color: #fff;
+}
+
+.styled-form {
+       width: 100%;
+       /* max-width: 400px; */
+       margin: 0 auto;
+       padding: 20px;
+       border-radius: 15px;
+       background-color: #f1f1f1;
+       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+       display: flex;
+       flex-direction: column;
+       gap: 10px;
+}
+
+.styled-form label {
+       font-size: 2rem;
+       color: #333;
+       margin-bottom: 5px;
+}
+
+.styled-form input[type="text"],
+.styled-form input[type="email"],
+.styled-form input[type="number"],
+.styled-form textarea {
+       width: 100%;
+       padding: 10px;
+       font-size: 1.6rem;
+       border: 1px solid #ddd;
+       border-radius: 4px;
+       box-sizing: border-box;
+       transition: border-color 0.3s ease, box-shadow 0.3s;
+}
+
+.styled-form input[type="text"]:focus,
+.styled-form input[type="email"]:focus,
+.styled-form input[type="number"]:focus,
+.styled-form textarea:focus {
+       border-color: #4ce4ff;
+       box-shadow: 0 0 5px #4ce4ff;
+       outline: none;
+}
+
+.styled-form input[type="submit"] {
+       background-color: rgb(21, 60, 108);
+       color: #fff;
+       font-size: 1.6rem;
+       padding: 10px;
+       border: none;
+       border-radius: 4px;
+       cursor: pointer;
+       transition: background-color 0.3s ease;
+}
+
+.styled-form input[type="submit"]:hover {
+       background-color: rgb(32, 93, 169);
+}
+
 
 /* Content About Section */
 .contentAboutSec .contentSec {
        width: 100%;
        display: flex;
-       flex-direction: column;
+       flex-wrap: wrap;
+       /* flex-direction: column; */
        align-items: flex-start;
-       justify-content: flex-start;
+       justify-content: center;
        flex-wrap: wrap;
        gap: 20px;
 }
 
 .contentAboutSec .contentSec .tap {
        width: 100%;
-       /* box-shadow: 1px 1px 13px -1px rgba(128, 128, 128, 1); */
-       /* background-color: #0A1A2E; */
        display: flex;
-       /* flex-direction: column; */
        align-items: start;
        justify-content: flex-start;
-       /* padding: 15px; */
        border-radius: 15px;
        overflow: hidden;
        column-gap: 10px;
@@ -483,7 +551,7 @@ nav .wrapperNav .linksPage .menuTap {
 }
 
 .logoDevelop {
-       width: 50px;
+       width: 40px;
        border-radius: 50%;
        margin: 0 5px;
 }
@@ -568,18 +636,24 @@ nav .wrapperNav .linksPage .menuTap {
               font-size: 1.2rem;
        }
 
+       .headerContact h1 {
+              font-size: 3rem;
+              color: #fff;
+       }
+
        .contentAboutSec .contentSec {
               margin-top: 10px;
               width: 100%;
               display: flex;
               /* flex-direction: row; */
               align-items: center;
-              justify-content: flex-start;
-              flex-wrap: wrap;
+              justify-content:space-evenly ;
+              /* flex-wrap: wrap; */
               gap: 10px;
        }
 
        .contentAboutSec .contentSec .tap {
+              width: 45%;
               /* width: auto; */
               /* box-shadow: 1px 1px 13px -1px rgba(128, 128, 128, 1); */
               /* background-color: #0A1A2E; */
@@ -587,7 +661,7 @@ nav .wrapperNav .linksPage .menuTap {
               /* flex-direction: column; */
               align-items: center;
               justify-content: flex-start;
-              padding:0;
+              padding: 0;
               /* border-radius: 15px; */
               overflow: hidden;
               row-gap: 20px;
